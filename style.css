@@ -1,0 +1,19 @@
+.container{
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.container img:first-child{
+    width: 200px;
+}
+.container img:last-child{
+    width: 200px;
+}
+@media (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+}
